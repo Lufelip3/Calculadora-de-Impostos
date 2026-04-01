@@ -1,0 +1,14 @@
+# Arquivos compilados — gerados automaticamente pelo javac
+*.class
+
+# JAR — gerado automaticamente pelo comando jar
+*.jar
+
+# Executavel e pasta de distribuicao — gerados pelo jpackage
+output/
+CalculoImpostoProduto/
+
+# Configuracoes locais do IntelliJ — nao pertencem ao repositorio
+.idea/
+*.xml
+*.iml
