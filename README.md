@@ -70,6 +70,39 @@ valorFinal = valorCusto * 2
 
 Para limpar tudo e comecar um novo calculo, clique em **Limpar**.
 
+### Exemplo pratico
+
+Situacao: um produto importado por 100 dolares, com Dolar a 5,80, IPI de 10%, ICMS de 12% e Frete de 5%.
+
+| Campo | Valor |
+|---|---|
+| Valor do Produto | 100 |
+| Dolar | 5,80 |
+| IPI | 10 |
+| ICMS | 12 |
+| Frete | 5 |
+
+Resultados:
+
+| Item | Calculo | Valor |
+|---|---|---|
+| Valor de Compra | 100 x 5,80 | R$ 580,00 |
+| IPI | 10% de 580 | R$ 58,00 |
+| ICMS | 12% de 580 | R$ 69,60 |
+| Frete | 5% de 580 | R$ 29,00 |
+| **Valor de Custo** | 580 + 58 + 69,60 + 29 | **R$ 736,60** |
+| **Valor Final** | 736,60 x 2 | **R$ 1.473,20** |
+
+---
+
+## Problemas comuns
+
+| Situacao | Solucao |
+|---|---|
+| O botao "Calcular" nao faz nada | Verifique se os campos obrigatorios estao preenchidos: Valor do Produto, IPI, ICMS e Frete |
+| Apareceu uma mensagem de erro ao calcular | Algum campo foi preenchido com texto ou caractere invalido — use apenas numeros, virgula ou ponto |
+| O campo de frete esta bloqueado | O checkbox "Sultan" esta marcado; desmarque-o para digitar o frete manualmente |
+
 ---
 
 ## Estrutura do Projeto
